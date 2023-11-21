@@ -9,11 +9,9 @@ export class CardPhoto extends Component {
 
   openModal = () => {
     this.setState({ isOpenModal: true });
-    console.log(`OPEN`);
   };
   closeModal = () => {
     this.setState({ isOpenModal: false });
-    console.log(`CLOSE`);
   };
 
   render() {
